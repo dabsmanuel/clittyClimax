@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Clitty Climaxgh Natural Feminine Hygiene Products</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .brand-pink {
+            color: #FF6B9B;
+        }
+        .bg-brand-pink {
+            background-color: #FF6B9B;
+        }
+        .bg-brand-pink-light {
+            background-color: #FFE5ED;
+        }
+        .border-brand-pink {
+            border-color: #FF6B9B;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <!-- Logo and Brand Name -->
+                <div class="flex items-center">
+                    <div class="mr-2 text-3xl brand-pink">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold brand-pink">Clitty Climaxgh</h1>
+                        <p class="text-sm text-gray-600">Natural Feminine Hygiene</p>
+                    </div>
+                </div>
+                
+                <!-- Navigation -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="font-medium hover:text-pink-500">Home</a>
+                    <a href="#" class="font-medium brand-pink">Shop</a>
+                    <a href="#" class="font-medium hover:text-pink-500">About Us</a>
+                    <a href="#" class="font-medium hover:text-pink-500">Contact</a>
+                </nav>
+                
+                <!-- Icons -->
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="text-gray-700 hover:text-pink-500">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <a href="#" class="text-gray-700 hover:text-pink-500">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <a href="#" class="text-gray-700 hover:text-pink-500 relative">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="absolute -top-2 -right-2 bg-brand-pink text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">3</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="bg-brand-pink-light py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold mb-4 brand-pink">Shop Our Products</h1>
+            <p class="text-lg max-w-2xl mx-auto">Discover our complete range of natural feminine hygiene products made with authentic herbs sourced from West Africa.</p>
+        </div>
+    </section>
+
+    <!-- Shop Content -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row">
+                <!-- Sidebar/Filters -->
+                <div class="lg:w-1/4 mb-8 lg:mb-0 lg:pr-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="font-bold text-xl mb-4 brand-pink">Categories</h3>
+                        <ul class="space-y-2 mb-8">
+                            <li class="flex items-center justify-between">
+                                <a href="#" class="text-gray-700 hover:text-pink-500">All Products</a>
+                                <span class="text-sm text-gray-500">(15)</span>
+                            </li>
+                            <li class="flex items-center justify-between">
+                                <a href="#" class="font-medium brand-pink">Cleansing</a>
+                                <span class="text-sm text-gray-500">(4)</span>
+                            </li>
+                            <li class="flex items-center justify-between">
+                                <a href="#" class="text-gray-700 hover:text-pink-500">Tightening</a>
+                                <span class="text-sm text-gray-500">(3)</span>
+                            </li>
+                            <li class="flex items-center justify-between">
+                                <a href="#" class="text-gray-700 hover:text-pink-500">Suppositories</a>
+                                <span class="text-sm text-gray-500">(2)</span>
+                            </li>
+                            <li class="flex items-center justify-between">
+                                <a href="#" class="text-gray-700 hover:text-pink-500">Moisturizing</a>
+                                <span class="text-sm text-gray-500">(3)</span>
+                            </li>
+                            <li class="flex items-center justify-between">
+                                <a href="#" class="text-gray-700 hover:text-pink-500">Complete Kits</a>
+                                <span class="text-sm text-gray-500">(3)</span>
+                            </li>
+                        </ul>
+
+                        <h3 class="font-bold text-xl mb-4 brand-pink">Price Range</h3>
+                        <div class="mb-8">
+                            <div class="flex items-center justify-between mb-2">
+                                <span>GH₵ 0</span>
+                                <span>GH₵ 300</span>
+                            </div>
+                            <input type="range" min="0" max="300" value="200" class="w-full accent-pink-500">
+                            <div class="mt-2 text-sm text-gray-700">Max: GH₵ 200</div>
+                        </div>
+
+                        <h3 class="font-bold text-xl mb-4 brand-pink">Herb Origin</h3>
+                        <div class="space-y-2 mb-8">
+                            <div class="flex items-center">
+                                <input type="checkbox" id="ghana" class="mr-2 accent-pink-500">
+                                <label for="ghana" class="text-gray-700">Ghana</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" id="nigeria" class="mr-2 accent-pink-500">
+                                <label for="nigeria" class="text-gray-700">Nigeria</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" id="senegal" class="mr-2 accent-pink-500">
+                                <label for="senegal" class="text-gray-700">Senegal</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" id="ivory-coast" class="mr-2 accent-pink-500">
+                                <label for="ivory-coast" class="text-gray-700">Ivory Coast</label>
+                            </div>
+                        </div>
+
+                        <button class="w-full bg-brand-pink text-white py-2 rounded-full hover:bg-pink-600 transition">Apply Filters</button>
+                    </div>
+                </div>
+                
+                <!-- Products Grid -->
+                <div class="lg:w-3/4">
+                    <div class="bg-white p-4 rounded-lg shadow-md mb-6 flex flex-col sm:flex-row justify-between items-center">
+                        <div class="mb-4 sm:mb-0">
+                            <span class="text-gray-700">Showing 1-12 of 15 products</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="mr-2 text-gray-700">Sort by:</span>
+                            <select class="border rounded-lg px-2 py-1 focus:outline-none focus:ring-2 focus:ring-pink-300 focus:border-pink-300">
+                                <option>Popularity</option>
+                                <option>Price: Low to High</option>
+                                <option>Price: High to Low</option>
+                                <option>Newest</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- Product 1 -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                            <div class="relative">
+                                <img src="/api/placeholder/400/300" alt="Herbal feminine wash" class="w-full h-48 object-cover">
+                                <div class="absolute top-2 right-2 bg-brand-pink text-white px-2 py-1 rounded-full text-xs">Best Seller</div>
+                            </div>
+                            <div class="p-4">
+                                <div class="flex items-center mb-1">
+                                    <div class="text-yellow-400 text-sm">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <span class="text-xs text-gray-500 ml-1">(24)</span>
+                                </div>
+                                <h3 class="font-semibold text-lg mb-1">Herbal Feminine Wash</h3>
+                                <p class="text-gray-600 text-sm mb-3">Gentle cleansing with West African herbs</p>
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-lg brand-pink">GH₵ 75.00</span>
+                                    <button class="bg-brand-pink text-white px-3 py-1 rounded-full text-sm hover:bg-pink-600 transition">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Product 2 -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                            <div class="relative">
+                                <img src="/api/placeholder/400/300" alt="Herbal suppositories" class="w-full h-48 object-cover">
+                                <div class="absolute top-2 right-2 bg-green-500 text-white px-2 py-1 rounded-full text-xs">New</div>
+                            </div>
+                            <div class="p-4">
+                                <div class="flex items-center mb-1">
+                                    <div class="text-yellow-400 text-sm">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="text-xs text-gray-500 ml-1">(18)</span>
+                                </div>
+                                <h3 class="font-semibold text-lg mb-1">Herbal Suppositories</h3>
+                                <p class="text-gray-600 text-sm mb-3">Natural vaginal health support</p>
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-lg brand-pink">GH₵ 120.00</span>
+                                    <button class="bg-brand-pink text-white px-3 py-1 rounded-full text-sm hover:bg-pink-600 transition">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Product 3 -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                            <img src="/api/placeholder/400/300" alt="Herbal tightening gel" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <div class="flex items-center mb-1">
+                                    <div class="text-yellow-400 text-sm">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="text-xs text-gray-500 ml-1">(12)</span>
+                                </div>
+                                <h3 class="font-semibold text-lg mb-1">Tightening Gel</h3>
+                                <p class="text-gray-600 text-sm mb-3">Natural formula for intimate wellness</p>
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-lg brand-pink">GH₵ 150.00</span>
+                                    <button class="bg-brand-pink text-white px-3 py-1 rounded-full text-sm hover:bg-pink-600 transition">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Product 4 -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                            <img src="/api/placeholder/400/300" alt="Herbal cleansing kit" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <div class="flex items-center mb-1">
+                                    <div class="text-yellow-400 text-sm">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <span class="text-xs text-gray-500 ml-1">(32)</span>
+                                </div>
+                                <h3 class="font-semibold text-lg mb-1">Complete Cleansing Kit</h3>
+                                <p class="text-gray-600 text-sm mb-3">Full feminine care package</p>
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-lg brand-pink">GH₵ 250.00</span>
+                                    <button class="bg-brand-pink text-white px-3 py-1 rounded-full text-sm hover:bg-pink-600 transition">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Product 5 -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                            <div class="relative">
+                                <img src="/api/placeholder/400/300" alt="Intimate moisturizer" class="w-full h-48 object-cover">
+                                <div class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs">Sale</div>
+                            </div>
+                            <div class="p-4">
+                                <div class="flex items-center mb-1">
+                                    <div class="text-yellow-400 text-sm">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="text-xs text-gray-500 ml-1">(9)</span>
+                                </div>
+                                <h3 class="font-semibold text-lg mb-1">Intimate Moisturizer</h3>
+                                <p class="text-gray-600 text-sm mb-3">Natural hydration for sensitive areas</p>
+                                <div class="flex justify-between items-center">
+                                    <div>
+                                        <span class="font-bold text-lg brand-pink">GH₵ 80.00</span>
+                                        <span class="text-sm text-gray-500 line-through ml-2">GH₵ 95.00</span>
+                                    </div>
+                                    <button class="bg-brand-pink text-white px-3 py-1 rounded-full text-sm hover:bg-pink-600 transition">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Product 6 -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                            <img src="/api/placeholder/400/300" alt="Yoni steam herbs" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <div class="flex items-center mb-1">
+                                    <div class="text-yellow-400 text-sm">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="text-xs text-gray-500 ml-1">(7)</span>
+                                </div>
+                                <h3 class="font-semibold text-lg mb-1">Yoni Steam Herbs</h3>
+                                <p class="text-gray-600 text-sm mb-3">Traditional herbal blend for steaming</p>
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-lg brand-pink">GH₵ 85.00</span>
+                                    <button class="bg-brand-pink text-white px-3 py-1 rounded-full text-sm hover:bg-pink-600 transition">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Product 7 -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                            <img src="/api/placeholder/400/300" alt="pH balancing wash" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <div class="flex items-center mb-1">
+                                    <div class="text-yellow-400 text-sm">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="text-xs text-gray-500 ml-1">(14)</span>
+                                </div>
+                                <h3 class="font-semibold text-lg mb-1">pH Balancing Wash</h3>
+                                <p class="text-gray-600 text-sm mb-3">Maintains natural vaginal pH</p>
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-lg brand-pink">GH₵ 95.00</span>
+                                    <button class="bg-brand-pink text-white px-3 py-1 rounded-full text-sm hover:bg-pink-600 transition">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Product 8 -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                            <img src="/api/placeholder/400/300" alt="Herbal sitz bath" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <div class="flex items-center mb-1">
+                                    <div class="text-yellow-400 text-sm">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="text-xs text-gray-500 ml-1">(21)</span>
+                                </div>
+                                <h3 class="font-semibold text-lg mb-1">Herbal Sitz Bath</h3>
+                                <p class="text-gray-600 text-sm mb-3">Soothing blend for postpartum care</p>
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-lg brand-pink">GH₵ 110.00</span>
+                                    <button class="bg-brand-pink text-white px-3 py-1 rounded-full text-sm hover:bg-pink-600 transition">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Product 9 -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                            <div class="relative">
+                                <img src="/api/placeholder/400/300" alt="Intimate oil" class="w-full h-48 object-cover">
+                                <div class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs">Sale</div>
+                            </div>
+                            <div class="p-4">
+                                <div class="flex items-center mb-1">
+                                    <div class="text-yellow-400 text-sm">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="text-xs text-gray-500 ml-1">(11)</span>
+                                </div>
+                                <h3 class="font-semibold text-lg mb-1">Intimate Oil</h3>
+                                <p class="text-gray-600 text-sm mb-3">Natural lubricant with herbs</p>
+                                <div class="flex justify-between items-center">
+                                    <div>
+                                        <span class="font-bold text-lg brand-pink">GH₵ 100.00</span>
+                                        <span class="text-sm text-gray-500 line-through ml-2">GH₵ 125.00</span>
+                                    </div>
+                                    <button class="bg-brand-pink text-white px-3 py-1 rounded-full text-sm hover:bg-pink-600 transition">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Pagination -->
+                    <div class="mt-8 flex justify-center">
+                        <nav class="flex items-center space-x-1">
+                            <a href="#" class="px-3 py-1 rounded-md bg-white border border-gray-300 text-gray-600 hover:bg-gray-50">
+                                <i class="fas fa-chevron-left text-sm"></i>
+                            </a>
+                            <a href="#" class="px-3 py-1 rounded-md bg-brand-pink text-white">1</a>
+                            <a href="#" class="px-3 py-1 rounded-md bg-white border border-gray-300 text-gray-600 hover:bg-gray-50">2</a>
+                            <a href="#" class="px-3 py-1 rounded-md bg-white border border-gray-300 text-gray-600 hover:bg-gray-50">3</a>
+                            <a href="#" class="px-3 py-1 rounded-md bg-white border border-gray-300 text-gray-600 hover:bg-gray-50">
+                                <i class="fas fa-chevron-right text-sm"></i>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Recommendations -->
+    <section class="py-12 bg-brand-pink-light">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8 brand-pink">You May Also Like</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <!-- Recommendation 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="/api/placeholder/400/300" alt="Feminine wellness tea" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-1">Feminine Wellness Tea</h3>
+                        <p class="text-gray-600 text-sm mb-3">Herbal blend for hormonal balance</p>
+                        <span class="font-bold brand-pink">GH₵ 65.00</span>
+                    </div>
+                </div>
+                
+                <!-- Recommendation 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="/api/placeholder/400/300" alt="Womb detox pearls" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-1">Womb Detox Pearls</h3>
+                        <p class="text-gray-600 text-sm mb-3">Traditional cleansing method</p>
+                        <span class="font-bold brand-pink">GH₵ 140.00</span>
+                    </div>
+                </div>
+                
+                <!-- Recommendation 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="/api/placeholder/400/300" alt="Feminine probiotic" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-1">Feminine Probiotic</h3>
+                        <p class="text-gray-600 text-sm mb-3">Support vaginal flora balance</p>
+                        <span class="font-bold brand-pink">GH₵ 115.00</span>
+                    </div>
+                </div>
+                
+                <!-- Recommendation 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="/api/placeholder/400/300" alt="Yoni massage oil" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-1">Yoni Massage Oil</h3>
+                        <p class="text-gray-600 text-sm mb-3">With traditional healing herbs</p>
+                        <span class="font-bold brand-pink">GH₵ 90.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4 brand-pink">Join Our Newsletter</h2>
+            <p class="mb-8 max-w-2xl mx-auto">Stay updated on new products, exclusive offers, and feminine wellness tips.</p>
+            
+            <form class="max-w-md mx-auto flex">
+                <input type="email" placeholder="Your email address" class="flex-grow px-4 py-3 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-pink-300 border border-gray-300">
+                <button class="bg-brand-pink text-white px-6 py-3 rounded-r-lg hover:bg-pink-600 transition">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-pink-300">Clitty Climaxgh</h3>
+                    <p class="text-gray-400">Natural feminine hygiene products made with authentic West African herbs.</p>
+                    <div class="flex mt-4 space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-pink-300"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-pink-300"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-pink-300"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-pink-300"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="
